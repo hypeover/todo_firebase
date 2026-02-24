@@ -1,0 +1,13 @@
+
+.icon {
+    fill: #CCCFD9;
+    transition: 0.5s;
+    z-index: 200;
+}
+
+.active {
+    fill: #4c34e2;
+    transition: 0.5s;
+    z-index: 200;
+}
+
