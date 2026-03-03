@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^1.8.8",
+    "@dnd-kit/react": "^0.3.2",
+    "@ebay/nice-modal-react": "^1.2.13",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@testing-library/jest-dom": "^5.16.4",

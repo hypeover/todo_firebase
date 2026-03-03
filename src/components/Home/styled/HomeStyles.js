@@ -42,8 +42,10 @@ export const Pages = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
   font-size: 5rem;
+  padding: 40px;
+  box-sizing: border-box;
 `
 
 

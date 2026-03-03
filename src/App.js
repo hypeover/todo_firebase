@@ -7,6 +7,12 @@ import ProtectedRoute from './components/Form/ProtectedRoute'
 import WelcomePage from './components/Home/WelcomePage'
 
 const App = () => {
+
+  console.log(process.env.REACT_APP_API_KEY)
+  console.log(process.env.REACT_APP_DATABASE_URL)
+  console.log(process.env.REACT_APP_APP_ID)
+  console.log(process.env.REACT_APP_AUTH_DOMAIN)
+
   return (
     <BrowserRouter>
       <AuthContextProvider>
